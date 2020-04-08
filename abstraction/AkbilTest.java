@@ -30,7 +30,7 @@ public class AkbilTest {
 		person[2] = new Retired(person[2].getId(), person[2].getName(), person[2].getCredit(), person[2].getAge());
 		*/
 		
-		System.out.println("Yaş Artışı ve Tip Değişimi");
+		System.out.println("Yaş Artışı ve Otomatik Tip Değişimi");
 		for(int i=0; i<4 ; i++){
 			person[i].addAge();
 			if( (person[i] instanceof Student && person[i].getAge()<20) || 
